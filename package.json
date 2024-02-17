@@ -4,7 +4,7 @@
   "description": "",
   "main": "/src/scripts-entry.js",
   "scripts": {
-    "build": "webpack",
+    "build": "rm -rf ./dist && webpack",
     "serve": "webpack serve --port 4400"
   },
   "keywords": [],
